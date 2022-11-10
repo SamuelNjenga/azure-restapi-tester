@@ -22,7 +22,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
         onDelete: "RESTRICT",
-        references: { model: "roles", key: "id" },
+        references: { model: "Roles", key: "id" },
       },
       createdAt: {
         allowNull: false,
